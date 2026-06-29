@@ -1524,6 +1524,11 @@
         line-height: 1.45;
       }
 
+      .sticky-note-strong {
+        color: #ff6b6b;
+        font-weight: 800;
+      }
+
       .sticky-actions {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -2086,7 +2091,12 @@
                 </div>
               </article>
               <article class="card type-visual">
-                <img src="./hero_render/교육_4.jpg" alt="브레인시티 메디스파크 84A 타입 평면도" loading="lazy" />
+                <img
+                  src="./hero_render/교육_4.jpg"
+                  alt="브레인시티 메디스파크 84A 타입 평면도"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='./hero_render/type-84a.jpg';"
+                />
                 <span class="type-zoom-note">마우스를 올리면 크게 볼 수 있습니다</span>
               </article>
             </section>
@@ -2129,7 +2139,12 @@
                 </div>
               </article>
               <article class="card type-visual">
-                <img src="./hero_render/교육_5.jpg" alt="브레인시티 메디스파크 84B 타입 평면도" loading="lazy" />
+                <img
+                  src="./hero_render/교육_5.jpg"
+                  alt="브레인시티 메디스파크 84B 타입 평면도"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='./hero_render/type-84b.jpg';"
+                />
                 <span class="type-zoom-note">마우스를 올리면 크게 볼 수 있습니다</span>
               </article>
             </section>
@@ -2172,7 +2187,12 @@
                 </div>
               </article>
               <article class="card type-visual">
-                <img src="./hero_render/교육_6.jpg" alt="브레인시티 메디스파크 101 타입 평면도" loading="lazy" />
+                <img
+                  src="./hero_render/교육_6.jpg"
+                  alt="브레인시티 메디스파크 101 타입 평면도"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='./hero_render/type-101.jpg';"
+                />
                 <span class="type-zoom-note">마우스를 올리면 크게 볼 수 있습니다</span>
               </article>
             </section>
@@ -2477,7 +2497,7 @@
     <div class="sticky-bar" aria-label="빠른 상담 고정바">
       <div class="sticky-inner">
         <div class="sticky-note">
-          59타입은 분양완료. 지금은 84A·84B·101 가능 타입과 이벤트 혜택을 30초 입력 후 빠르게 확인하세요.
+          <span class="sticky-note-strong">59타입은 분양완료!!</span>&nbsp;남은 평수 놓치지 마세요!!
         </div>
         <div class="sticky-actions">
           <button class="btn btn-primary js-open-call" data-cta="sticky_consult">84A·84B·101 상담받기</button>
